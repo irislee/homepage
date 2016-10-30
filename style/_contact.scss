@@ -3,3 +3,36 @@
   padding: 100px 0;
   color: $lgrey;
 }
+
+form {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  border: none;
+  background-color: $formgrey;
+  color: $lgrey;
+  padding: 10px;
+}
+
+input[type=submit] {
+  background-color: transparent;
+  border: 1px solid $lgrey;
+  width: 30%;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+input[type=submit]:hover {
+  background-color: $formgrey;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  form {
+    text-align: left;
+  }
+}
