@@ -3,6 +3,7 @@ $purple: #4B1DA8;
 $pink: #6D1A6D;
 $lgrey: #5A5A5A;
 $dgrey: #1A1A1A;
+$darkestgrey:#181818;
 
 $font: 'Source Sans Pro', sans-serif;
 $font2: 'Lato', sans-serif;
@@ -11,22 +12,29 @@ $font2: 'Lato', sans-serif;
 @import 'pricing';
 @import 'services';
 @import 'team';
+@import 'logos';
 @import 'contact';
 @import 'footer';
 
 h1 {
   font-size: 5em;
   font-family: $font;
+  margin-bottom: 0px;
 }
 h2 {
   font-size: 3em;
   font-family: $font;
+  margin-bottom: 0px;
 }
 h3 {
   font-size: 2em;
   font-family: $font;
+  margin-bottom: 0px;
 }
 p {
   font-size: 1.3em;
   font-family: $font;
+}
+.contrastp {
+  color: white;
 }
