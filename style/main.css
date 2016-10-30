@@ -17,15 +17,17 @@
   text-align: center; }
 
 #pricing img {
-  width: 50%; }
+  width: 50%;
+  align: top; }
 
 @media (min-width: 768px) {
   #pricing {
     text-align: left; }
 
   #pricing img {
-    width: 70%;
-    float: right; } }
+    width: 90%;
+    float: right;
+    margin-top: -50px; } }
 #services {
   background-color: #222222;
   color: #7B7B7B;
