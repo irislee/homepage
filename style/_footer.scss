@@ -1,4 +1,16 @@
 #footer {
   background-color: $dgrey;
   color: $lgrey;
+  padding-top: 50px;
+}
+
+#footer ul {
+  list-style: none;
+  padding: 0;
+  font-family: $font2;
+  font-size: 1.2em;
+}
+
+#copyright {
+  font-size: 1em;
 }
