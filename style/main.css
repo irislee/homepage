@@ -1,0 +1,43 @@
+#header {
+  padding: 0 0 160px 0;
+  background: linear-gradient(rgba(109, 26, 109, 0.65), rgba(109, 26, 109, 0.65)), url(../assets/office.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+  color: white;
+  text-align: center; }
+
+#pricing {
+  background-color: #4B1DA8;
+  color: white; }
+
+#pricing img {
+  width: 70%; }
+
+#services {
+  background-color: #1A1A1A;
+  color: #5A5A5A; }
+
+#services h2 {
+  color: white; }
+
+h1 {
+  font-size: 5em;
+  font-family: "Source Sans Pro", sans-serif; }
+
+h2 {
+  font-size: 3em;
+  font-family: "Source Sans Pro", sans-serif; }
+
+h3 {
+  font-size: 2em;
+  font-family: "Source Sans Pro", sans-serif; }
+
+p {
+  font-size: 1.3em;
+  font-family: "Source Sans Pro", sans-serif; }
+
+/*# sourceMappingURL=main.css.map */

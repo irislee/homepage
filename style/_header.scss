@@ -1,0 +1,18 @@
+#header {
+  padding: 0 0 160px 0;
+  background: 
+    linear-gradient(
+      $purpleoverlay, 
+      $purpleoverlay
+    ),
+    url(../assets/office.jpeg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-position:center center;
+  
+  color: white;
+  text-align: center;
+}
