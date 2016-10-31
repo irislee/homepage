@@ -15,6 +15,7 @@
     border-radius: 6px;
   }
   button:hover {
+    transition-duration: 0.6s;
     background-color: white;
     color: $purple;
   }

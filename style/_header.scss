@@ -37,6 +37,7 @@
 }
 
 #more:hover {
+  transition-duration: 0.5s;
   background-color: white;
   color: $purple;
   box-shadow: none;

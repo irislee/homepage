@@ -28,6 +28,7 @@
   letter-spacing: 0; }
 
 #more:hover {
+  transition-duration: 0.5s;
   background-color: white;
   color: #6A00BE;
   box-shadow: none;
@@ -130,6 +131,7 @@
     width: 50%;
     border-radius: 6px; }
   #pricing button:hover {
+    transition-duration: 0.6s;
     background-color: white;
     color: #6A00BE; }
 
