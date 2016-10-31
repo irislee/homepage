@@ -20,7 +20,7 @@
   border: none;
   background-color: #6A00BE;
   padding: 15px;
-  width: 32%;
+  width: 50%;
   border-radius: 6px;
   -moz-box-shadow: 0px 3px #5D00A8;
   -webkit-box-shadow: 0px 3px #5D00A8;
@@ -58,18 +58,14 @@
       display: block;
       text-align: center;
       vertical-align: middle; }
+    #mobile-nav div a:last-child {
+      border-bottom: 1px solid white; }
     #mobile-nav div a:hover {
       background-color: #5D00A8; }
 
 .navbar-fixed-top {
   background-color: #6A00BE;
   height: 60px; }
-
-.sticky {
-  position: fixed;
-  width: 100%;
-  height: 55px;
-  background-color: #6A00BE; }
 
 #menu {
   margin: 10px 5px 0 0;
@@ -89,6 +85,9 @@
   transform: rotate(90deg); }
 
 @media (min-width: 768px) {
+  #more {
+    width: 40%; }
+
   #mobile-nav {
     display: none; }
 
@@ -108,55 +107,47 @@
     float: right;
     font-size: 1.2em;
     margin-top: 15px; }
-
-  nav a {
-    color: white; }
-
-  nav a:visited {
-    color: white; }
-
-  nav li {
-    display: inline-block;
-    margin: 0 10px;
-    width: 100px;
-    text-align: right; } }
+    nav a, nav a:visited {
+      color: white; }
+    nav li {
+      display: inline-block;
+      margin: 0 10px;
+      width: 100px;
+      text-align: right; } }
 #pricing {
   background-color: #6A00BE;
   color: white;
   padding: 50px 0 80px 0;
   text-align: center; }
-
-#pricing img {
-  width: 50%;
-  align: top; }
-
-#pricing button {
-  border: 1px solid white;
-  background-color: transparent;
-  padding: 15px;
-  width: 30%;
-  border-radius: 6px; }
-
-#pricing button:hover {
-  background-color: white;
-  color: #6A00BE; }
+  #pricing img {
+    width: 50%;
+    align: top; }
+  #pricing button {
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 15px;
+    width: 50%;
+    border-radius: 6px; }
+  #pricing button:hover {
+    background-color: white;
+    color: #6A00BE; }
 
 @media (min-width: 768px) {
   #pricing {
     text-align: left; }
-
-  #pricing img {
-    width: 90%;
-    float: right;
-    margin-top: -50px; } }
+    #pricing button {
+      width: 30%; }
+    #pricing img {
+      width: 90%;
+      float: right;
+      margin-top: -50px; } }
 #services {
   background-color: #222222;
   color: #7B7B7B;
   text-align: center;
   padding: 100px 0; }
-
-#services h2 {
-  color: white; }
+  #services h2 {
+    color: white; }
 
 #team {
   text-align: center; }
@@ -221,18 +212,18 @@ input[type=submit]:hover {
   background-color: #1F1F1F;
   color: #7B7B7B;
   padding-top: 50px; }
-
-#footer ul {
-  list-style: none;
-  padding: 0;
-  font-family: "Lato", sans-serif;
-  font-size: 1.2em; }
+  #footer ul {
+    list-style: none;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    font-size: 1.2em; }
 
 #copyright {
-  font-size: 1em; }
+  font-size: 1em;
+  margin-top: 10px; }
 
 h1 {
-  font-size: 5em;
+  font-size: 4em;
   font-family: "Source Sans Pro", sans-serif;
   margin-bottom: 0px; }
 
@@ -250,24 +241,30 @@ p {
   font-size: 1.3em;
   font-family: "Source Sans Pro", sans-serif; }
 
+.font2 {
+  font-size: 1.2em;
+  font-family: "Lato", sans-serif; }
+
 .contrastp {
   color: white; }
 
 a {
   color: #7B7B7B; }
 
-a:hover {
+a:hover, a:focus {
   color: white; }
+
+a:visited {
+  color: #7B7B7B; }
 
 .center {
   text-align: center; }
 
-.font2 {
-  font-size: 1.2em;
-  font-family: "Lato", sans-serif; }
-
 .line {
   border-top: 1px solid #7B7B7B; }
+
+.mobile-tab-pad-bottom, .mobile-pad-bottom {
+  padding-bottom: 20px; }
 
 input:focus,
 select:focus,
@@ -275,11 +272,26 @@ textarea:focus,
 button:focus {
   outline: none; }
 
+.padbottomfull {
+  padding-bottom: 50px; }
+
 @media (min-width: 768px) {
+  h1 {
+    font-size: 5em; }
+
+  h2 {
+    font-size: 3em; }
+
+  .mobile-pad-bottom {
+    padding-bottom: 0; }
+
   .padbottomhalf {
     padding-bottom: 50px; }
 
   .padbottomfull {
     padding-bottom: 100px; } }
+@media (min-width: 992px) {
+  .mobile-tab-pad-bottom {
+    padding-bottom: 0; } }
 
 /*# sourceMappingURL=main.css.map */
