@@ -9,6 +9,18 @@
   width: 50%;
   align: top;
 }
+#pricing button {
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 15px;
+  width: 20%;
+  border-radius: 6px;
+}
+
+#pricing button:hover {
+  background-color: white;
+  color: $purple;
+}
 
 @media (min-width: 768px) {
   #pricing {
