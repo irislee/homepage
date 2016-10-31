@@ -6,14 +6,13 @@ $('#mobile-nav a').click(function() {
   $('#menu').toggleClass('expanded').siblings('div').slideToggle(0);
 });
 
-$(':required').one('blur keydown', function() {
-    $(this).addClass('touched');
-  });
-
-
 $(document).ready(function(){
-  $('mobile-nav a').click(function(){
+  $('#mobile-nav a').click(function(){
     var href = $(this).attr('href');
-    $(window).scrollTo(href, 100, {offset: -500});
+    $(window).scrollTo(href, 400);
+  });
+  $('#navbar a').click(function(){
+    var href = $(this).attr('href');
+    $(window).scrollTo(href, 400);
   });
 });
