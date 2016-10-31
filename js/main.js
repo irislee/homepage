@@ -6,6 +6,10 @@ $('#mobile-nav a').click(function() {
   $('#menu').toggleClass('expanded').siblings('div').slideToggle(0);
 });
 
+$(':required').one('blur keydown', function() {
+    $(this).addClass('touched');
+  });
+
 
 $(document).ready(function(){
   $('mobile-nav a').click(function(){

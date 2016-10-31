@@ -185,6 +185,26 @@
 form {
   text-align: center; }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none; }
+
+::-webkit-input-placeholder {
+  color: #7B7B7B; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #7B7B7B; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #7B7B7B; }
+
+:-ms-input-placeholder {
+  color: #7B7B7B; }
+
 input, textarea {
   width: 100%;
   border-radius: 6px;
@@ -265,12 +285,6 @@ a:visited {
 
 .mobile-tab-pad-bottom, .mobile-pad-bottom {
   padding-bottom: 20px; }
-
-input:focus,
-select:focus,
-textarea:focus,
-button:focus {
-  outline: none; }
 
 .padbottomfull {
   padding-bottom: 50px; }
