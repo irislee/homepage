@@ -6,22 +6,28 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-position: center center;
+  background-position: center 15%;
   color: white;
   text-align: center; }
 
-#header button {
+.hello {
+  margin-top: 130px; }
+
+.mobile-padding {
+  padding: 0; }
+
+#more {
   border: none;
   background-color: #6A00BE;
   padding: 15px;
-  width: 30%;
+  width: 32%;
   border-radius: 6px;
   -moz-box-shadow: 0px 3px #5D00A8;
   -webkit-box-shadow: 0px 3px #5D00A8;
   box-shadow: 0px 3px #5D00A8;
   letter-spacing: 0; }
 
-#header button:hover {
+#more:hover {
   background-color: white;
   color: #6A00BE;
   box-shadow: none;
@@ -29,26 +35,91 @@
 
 #company {
   font-size: 1.3em;
-  margin-top: 5px; }
+  padding-top: 15px;
+  float: left; }
 
-nav {
+#navbar {
+  display: none; }
+
+#mobile-nav {
+  display: block; }
+  #mobile-nav div {
+    display: none;
+    margin-top: 60px; }
+    #mobile-nav div a {
+      z-index: 100;
+      width: 100%;
+      text-decoration: none;
+      background-color: #6A00BE;
+      padding: 5px;
+      border-top: 1px solid white;
+      height: 35px;
+      color: white;
+      display: block;
+      text-align: center;
+      vertical-align: middle; }
+    #mobile-nav div a:hover {
+      background-color: #5D00A8; }
+
+.navbar-fixed-top {
+  background-color: #6A00BE;
+  height: 60px; }
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  background-color: #6A00BE; }
+
+#menu {
+  margin: 10px 5px 0 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
   float: right;
-  font-size: 1.2em;
-  margin-top: 5px; }
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: transparent url(../assets/bars.png) no-repeat;
+  margin-bottom: 5px; }
 
-nav a {
-  color: white; }
+#menu.expanded {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg); }
 
-nav a:visited {
-  color: white; }
+@media (min-width: 768px) {
+  #mobile-nav {
+    display: none; }
 
-/*Style menu links*/
-nav li {
-  display: inline-block;
-  margin: 0 10px;
-  width: 100px;
-  text-align: right; }
+  .mobile-padding {
+    padding-right: 15px;
+    padding-left: 15px; }
 
+  #navbar {
+    display: block; }
+
+  .navbar-fixed-top {
+    position: static;
+    z-index: 1;
+    background-color: transparent; }
+
+  nav {
+    float: right;
+    font-size: 1.2em;
+    margin-top: 15px; }
+
+  nav a {
+    color: white; }
+
+  nav a:visited {
+    color: white; }
+
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+    width: 100px;
+    text-align: right; } }
 #pricing {
   background-color: #6A00BE;
   color: white;
@@ -63,7 +134,7 @@ nav li {
   border: 1px solid white;
   background-color: transparent;
   padding: 15px;
-  width: 20%;
+  width: 30%;
   border-radius: 6px; }
 
 #pricing button:hover {
@@ -112,9 +183,8 @@ nav li {
   background-color: #6A00BE;
   text-align: center;
   padding: 20px 0; }
-
-#logos img {
-  height: 24px; }
+  #logos img {
+    height: 24px; }
 
 #contact {
   background-color: #222222;
