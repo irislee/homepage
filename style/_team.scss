@@ -1,8 +1,26 @@
 #team {
   text-align: center;
 }
+
+#team img {
+  width: 30%;
+}
+.member {
+  color: $purple;
+  font-size: 2em;
+}
+
+.role {
+  color: $pink;
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+
 @media (min-width: 768px) {
   #team {
     padding: 100px 0;
+  }
+  #team img {
+    width: 80%;
   }
 }

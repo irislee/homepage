@@ -40,9 +40,24 @@
 #team {
   text-align: center; }
 
+#team img {
+  width: 30%; }
+
+.member {
+  color: #6A00BE;
+  font-size: 2em; }
+
+.role {
+  color: #99008D;
+  text-transform: uppercase;
+  font-size: 1.1em; }
+
 @media (min-width: 768px) {
   #team {
-    padding: 100px 0; } }
+    padding: 100px 0; }
+
+  #team img {
+    width: 80%; } }
 #logos {
   background-color: #6A00BE;
   text-align: center;
