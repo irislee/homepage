@@ -27,6 +27,28 @@
   box-shadow: none;
   letter-spacing: 2px; }
 
+#company {
+  font-size: 1.3em;
+  margin-top: 5px; }
+
+nav {
+  float: right;
+  font-size: 1.2em;
+  margin-top: 5px; }
+
+nav a {
+  color: white; }
+
+nav a:visited {
+  color: white; }
+
+/*Style menu links*/
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+  width: 100px;
+  text-align: right; }
+
 #pricing {
   background-color: #6A00BE;
   color: white;
