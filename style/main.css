@@ -176,7 +176,7 @@
   font-size: 1.1em; }
 
 .social a {
-  margin-right: 10px; }
+  margin-right: 20px; }
 
 .social a:last-child {
   margin-right: 0; }
@@ -186,7 +186,10 @@
     padding: 100px 0; }
 
   .img-circle {
-    width: 80%; } }
+    width: 80%; }
+
+  .social a {
+    margin-right: 10px; } }
 #logos {
   background-color: #6A00BE;
   text-align: center;
