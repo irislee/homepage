@@ -17,6 +17,14 @@
   font-size: 1.1em;
 }
 
+.social a {
+  margin-right: 10px;
+}
+
+.social a:last-child {
+  margin-right: 0;
+}
+
 @media (min-width: 768px) {
   #team {
     padding: 100px 0;
